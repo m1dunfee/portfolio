@@ -5,19 +5,13 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm run lite",
-    "lite": "lite-server"
+    "start": "nodemon server/server.js"
   },
   "author": "Matthew Dunfee",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^4.4.1",
-    "bootstrap-social": "^5.1.1",
     "express": "^4.17.1",
-    "font-awesome": "^4.7.0",
-    "jquery": "^3.4.1",
-    "nodemon": "^2.0.2",
-    "popper.js": "^1.16.0"
+    "nodemon": "^2.0.2"
   },
   "devDependencies": {}
 }
