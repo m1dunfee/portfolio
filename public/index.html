@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary sticky-top">
         <a class="navbar-brand" href="#">Portfolio</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,7 +46,7 @@
                         <h2 class="card-header text-center">
                             Bio
                         </h2>
-                        <div class="card-body">
+                        <div class="card-body bg-dark">
                             <div class="media">
                                 <img src="./imgs/7 copy.png" class="mr-3 img-thumbnail d-none d-md-block" width="245" />
                                 <div class="media-body ">
@@ -71,7 +71,7 @@
                     <h2 class="card-header text-center">
                         Technical Skils
                     </h2>
-                    <div class="card-body">
+                    <div class="card-body bg-dark">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="m-auto">
@@ -86,7 +86,7 @@
                                     <div class="card">
 
                                         <!-- front end -->
-                                        <h4 class="card-header text-center" id="front-end">
+                                        <h4 class="card-header text-center skills-card-header" id="front-end">
                                             <a class="btn btn-link btn-block" type="button" data-toggle="collapse"
                                                 data-target="#collapseOne" aria-expanded="true"
                                                 aria-controls="collapseOne">
@@ -95,7 +95,7 @@
                                         </h4>
                                         <div id="collapseOne" class="collapse show" aria-labelledby="front-end"
                                             data-parent="#skillsAccordian">
-                                            <div class="card-body text-center">
+                                            <div class="card-body bg-dark text-center">
                                                 <ul class="list-unstyled">
                                                     <li>
                                                         JavaScript
@@ -122,7 +122,7 @@
 
                                 <!-- server-side -->
                                 <div class="card">
-                                    <h4 class="card-header text-center" id="server-side">
+                                    <h4 class="card-header text-center skills-card-header" id="server-side">
                                         <a class="btn btn-link btn-block" type="button" data-toggle="collapse"
                                             data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
                                             Server-Side
@@ -130,7 +130,7 @@
                                     </h4>
                                     <div id="collapseTwo" class="collapse" aria-labelledby="server-side"
                                         data-parent="#skillsAccordian">
-                                        <div class="card-body text-center">
+                                        <div class="card-body bg-dark text-center">
                                             <ul class="list-unstyled">
                                                 <li>
                                                     Node
@@ -157,7 +157,7 @@
 
                                 <!-- back-end -->
                                 <div class="card">
-                                    <h4 class="card-header text-center" id="back-end">
+                                    <h4 class="card-header text-center skills-card-header" id="back-end">
                                         <a class="btn btn-link btn-block" type="button" data-toggle="collapse"
                                             data-target="#collapseThree" aria-expanded="true"
                                             aria-controls="collapseThree">
@@ -166,7 +166,7 @@
                                     </h4>
                                     <div id="collapseThree" class="collapse" aria-labelledby="back-end"
                                         data-parent="#skillsAccordian">
-                                        <div class="card-body text-center">
+                                        <div class="card-body bg-dark text-center">
                                             <ul class="list-unstyled">
                                                 <li>
                                                     Postico
@@ -195,7 +195,7 @@
 
                                 <!-- environment -->
                                 <div class="card">
-                                    <h4 class="card-header text-center" id="environment">
+                                    <h4 class="card-header text-center skills-card-header" id="environment">
                                         <a class="btn btn-link btn-block" type="button" data-toggle="collapse"
                                             data-target="#collapseFour" aria-expanded="true"
                                             aria-controls="collapseFour">
@@ -204,7 +204,7 @@
                                     </h4>
                                     <div id="collapseFour" class="collapse" aria-labelledby="environment"
                                         data-parent="#skillsAccordian">
-                                        <div class="card-body text-center">
+                                        <div class="card-body bg-dark text-center">
                                             <ul class="list-unstyled">
                                                 <li>
                                                     Postman
@@ -246,14 +246,14 @@
                     <h2 class="card-header">
                         Checkout a site or dig in some code!
                     </h2>
-                    <div class="card-body">
+                    <div class="card-body bg-dark">
                         <div class="row">
 
                             <!-- This site -->
                             <div class="col-md-4">
                                 <div class="card text-center">
                                     <img src="imgs/confetti.jpeg" class="card-img-top" height="200" />
-                                    <div class="card-body">
+                                    <div class="card-body bg-dark">
                                         <h5 class="card-title">
                                             This site
                                         </h5>
@@ -270,7 +270,7 @@
                                             <div class="modal fade" id="thisSiteModal" tabindex="-1" role="dialog" aria-labelledby="thisSiteModalTitle" aria-hidden="true">
                                                 <div class="modal-dialog modal-dialog-scrollable" role="document">
                                                     <div class="modal-content">
-                                                        <div class="modal-header">
+                                                        <div class="modal-header ">
                                                         <h5 class="modal-title" id="thisSiteModalTitle">Details</h5>
                                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                             <span aria-hidden="true">&times;</span>
@@ -278,12 +278,35 @@
                                                         </div>
                                                         <div class="modal-body">
                                                         <!-- need to add some more secbtn-secondary here -->
+                                                        <h5>
+                                                            Description:
+                                                        </h5>
+                                                        <hr/>
                                                         <p>
-                                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque fugiat consequuntur maiores animi necessitatibus voluptatem numquam officia, architecto modi quas reiciendis cupiditate iusto nam quaerat labore magnam facere accusamus ducimus.
+                                                            This site was build as a portfolio to display what I am 
+                                                            currently working on. It also gives a breif look into my 
+                                                            profetional self, as well as links to my media accounts.
+                                                            Please feel free to contact me over the email or phone number 
+                                                            provided 
+                                                        </p>
+
+                                                        <h5>
+                                                            Frameworks:
+                                                        </h5>
+                                                        <hr/>
+                                                        <p>
+                                                            <ul>
+                                                                <li>
+                                                                    Bootstrap
+                                                                </li>
+                                                                <li>
+                                                                    Express
+                                                                </li>
+                                                            </ul>
                                                         </p>
                                                         </div>
                                                         <div class="modal-footer">
-                                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -297,7 +320,7 @@
                             <div class="col-md-4">
                                 <div class="card text-center">
                                     <img src="imgs/nucamp.png" class="card-img-top" height="200" />
-                                    <div class="card-body">
+                                    <div class="card-body bg-dark">
                                         <h5 class="card-title">
                                             Nucamp Demo
                                         </h5>
@@ -315,7 +338,7 @@
                                             <div class="modal fade" id="nucampModal" tabindex="-1" role="dialog" aria-labelledby="nucampModalTitle" aria-hidden="true">
                                                 <div class="modal-dialog modal-dialog-scrollable" role="document">
                                                     <div class="modal-content">
-                                                        <div class="modal-header">
+                                                        <div class="modal-header ">
                                                         <h5 class="modal-title" id="nucampModalTitle">Detials</h5>
                                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                             <span aria-hidden="true">&times;</span>
@@ -328,7 +351,7 @@
                                                         </p>
                                                         </div>
                                                         <div class="modal-footer">
-                                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -342,7 +365,7 @@
                             <div class="col-md-4">
                                 <div class="card text-center">
                                     <img src="imgs/download.jpeg" class="card-img-top" height="200" />
-                                    <div class="card-body">
+                                    <div class="card-body bg-dark">
                                         <h5 class="card-title">
                                             MtgConfidant
                                         </h5>
@@ -359,7 +382,7 @@
                                             <div class="modal fade" id="mtgConfidantModal" tabindex="-1" role="dialog" aria-labelledby="mtgConfidantModalTitle" aria-hidden="true">
                                                 <div class="modal-dialog modal-dialog-scrollable" role="document">
                                                     <div class="modal-content">
-                                                        <div class="modal-header">
+                                                        <div class="modal-header ">
                                                         <h5 class="modal-title" id="mtgConfidantModalTitle">Details</h5>
                                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                             <span aria-hidden="true">&times;</span>
@@ -372,7 +395,7 @@
                                                         </p>
                                                         </div>
                                                         <div class="modal-footer">
-                                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -390,7 +413,7 @@
         <!-- ##################################### work end ######################################### -->
     </div>
     <!-- ##################################### Footer Start ######################################### -->
-    <footer class="bg-dark">
+    <footer class="bg-primary">
         <div class="row p-3" id="contact">
             <div class="col-6 text-center m-auto">
                 <a class="btn btn-social-icon btn-github btn-lg" href="https://github.com/m1dunfee" target="_blank"><i

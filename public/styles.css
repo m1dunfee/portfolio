@@ -1,11 +1,40 @@
 body{
-background: tan;
-
+background: black;
+color: white;
 }
 
 .card-header{
     font-family: serif;
-    background-color: gray;
+    background-color: black;
     color: white;
 }
 
+ul{
+    list-style-type: none;
+}
+
+.modal-body{
+        /* text-align: left; */
+}
+
+.card{
+    background-color: darkgray;
+
+}
+
+.skills-card-header :hover{
+    background-color: darkgray;
+}
+
+.modal{
+    color: black;
+}
+
+/* .modal-header{
+    background-color: black;
+    color: white;
+}
+
+.modal-footer{
+    background-color: black;
+} */
