@@ -1,25 +1,32 @@
 body{
-background: black;
-color: white;
+background-image: url('./imgs/Galaxy.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: contain;
+background-color: black;
+color: black;
 }
 
 .card-header{
     font-family: serif;
     background-color: black;
     color: white;
+    /* opacity: .75; */
+}
+
+.card{
+    /* background-color: darkgray; */
+    background-color: transparent;
+}
+
+.card-body{
+background-color: darkgray;
+opacity: .75;
 }
 
 ul{
     list-style-type: none;
-}
-
-.modal-body{
-        /* text-align: left; */
-}
-
-.card{
-    background-color: darkgray;
-
 }
 
 .skills-card-header :hover{
@@ -28,6 +35,10 @@ ul{
 
 .modal{
     color: black;
+}
+
+.site-card{
+    background-color: black;
 }
 
 /* .modal-header{
