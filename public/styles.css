@@ -3,10 +3,11 @@ background-image: url('./imgs/Galaxy.jpg');
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-position: center;
-background-size: contain;
+background-size: 100%;
 background-color: black;
 color: black;
 }
+
 
 .card-header{
     font-family: serif;
