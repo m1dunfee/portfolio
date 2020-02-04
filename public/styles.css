@@ -1,28 +1,27 @@
 body{
-background-image: url('./imgs/Galaxy.jpg');
+/* background-image: url('./imgs/Galaxy.jpg'); */
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-position: center;
 background-size: 100%;
-background-color: black;
+background-color: lightgray;
 color: black;
 }
 
+.navbar{
+    background-color: black;
+}
 
 .card-header{
     font-family: serif;
-    background-color: black;
+    background-color: gray;
     color: white;
     /* opacity: .75; */
 }
 
-.card{
-    /* background-color: darkgray; */
-    background-color: transparent;
-}
 
 .card-body{
-background-color: darkgray;
+background-color: white;
 opacity: .75;
 }
 
@@ -42,6 +41,9 @@ ul{
     background-color: black;
 }
 
+.footer{
+    background-color: black;
+}
 /* .modal-header{
     background-color: black;
     color: white;
