@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" href="bootstrap-social.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap-social.css" />
     <link rel="stylesheet" href="styles.css" />
     <title>Portfolio</title>
 </head>
@@ -39,195 +41,245 @@
 
     <div class="container">
         <!-- ##################################### bio Start ######################################### -->
+        <div class="row">
+
+        </div>
+        <hr/> 
         <div class="row" id="bio">
             <div class="col">
+                <h2 class="text-center">
+                    Biography
+                </h2>
+            </div>
+        </div>
+        <hr/>
+        <div class="row" >
+            <div class="col ">
+                <img src="./imgs/7 copy.png" class="m-auto img-thumbnail d-none d-md-block " width="245" />
+            </div>
+            <div class="col py-5">
                 <div class="card">
-                        <h2 class="card-header text-center">
-                            Bio
-                        </h2>
-                        <div class="card-body">
-                            <div class="media">
-                                <img src="./imgs/7 copy.png" class="mr-3 img-thumbnail d-none d-md-block" width="245" />
-                                <div class="media-body ">
-                                
-                                    <p>Hello, my name is Matthew Dunfee! I am a Full-stack Software Engineer. My favorite stack is React, Node, PostgreSQL. Over the last few years I have spent my time studying at colleges and coding bootcamps. I am now an instructor at a bootcamp.</p>
+                    <h2 class="card-header">
+                        Matthew Dunfee
+                    </h2>
+                    <ul>
+                        <li>
+                            Full-Stack Software Engineer & Instructor
+                        </li>
+                        <li>
+                            Enjoys working on the front-end and api's
+                        </li>
+                        <li>
+                            Always eager to learn new skills
+                        </li>
+                    </ul>
+                    <a class="btn btn-dark" href="./resume/resume.docx" download>Resume</a>
+                </div>
+            </div>
+        </div>
 
-                                    <p>During my experience at Prime Digital Academy, I spent fifty hours a week taking a deep dive into HTML, CSS, and JavaScript. More thoroughly delving into a node stack with React/Redux on the front-end and Node/PostgreSQL on the backend.</p>
+        <!-- ##################################### bio end ######################################### -->
+        <hr/> 
+        <div class="row" id="skills">
+            <div class="col">
+                <h2 class="text-center">
+                    Skills
+                </h2>
+            </div>
+        </div>
+        <hr/>
+        <!-- ##################################### skills Start ######################################### -->
+        <div class="row" >
+            <div class="col-md-6 text-center">
+                <div class="accordian" id="skillsAccordian1">
+                    <div class="card">
+                <!-- Perfered Laungages -->
+                <div class="card">
+                    <h4 class="card-header text-center skills-card-header" id="perfered-laungages">
+                        <a class="btn btn-link btn-block" type="button" data-toggle="collapse"
+                            data-target="#collapse1point1" aria-expanded="true" aria-controls="collapse1point1">
+                            Perfered-laungages
+                        </a>
+                    </h4>
+                    <div id="collapse1point1" class="collapse show" aria-labelledby="perfered-laungages"
+                        data-parent="#skillsAccordian1">
+                        <div class="card-body text-center">
+                            <ul>
+                                <li>
+                                    HTML
+                                </li>
+                                <li>
+                                    CSS
+                                </li>
+                                <li>
+                                    JavaScript
+                                </li>
+                                <li>
+                                    Node
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
-                                    <p>At Normandale Community College I spent my time studying for an Associates of Science, learning the importance of efficient code. My central theme of studies were Big O notation and algorithms.</p>
-                            </div>
+                <!-- other-laungages -->
+                <div class="card">
+                    <h4 class="card-header text-center skills-card-header" id="other-laungages">
+                        <a class="btn btn-link btn-block" type="button" data-toggle="collapse"
+                            data-target="#collapse1point2" aria-expanded="true" aria-controls="collapse1point2">
+                            Other-laungages
+                        </a>
+                    </h4>
+                    <div id="collapse1point2" class="collapse" aria-labelledby="other-laungages"
+                        data-parent="#skillsAccordian1">
+                        <div class="card-body text-center">
+                            <ul>
+                                <li>
+                                    Python
+                                </li>
+                                <li>
+                                    C/C++
+                                </li>
+                                <li>
+                                    Java
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- environment -->
+                <div class="card">
+                    <h4 class="card-header text-center skills-card-header" id="environment">
+                        <a class="btn btn-link btn-block" type="button" data-toggle="collapse"
+                            data-target="#collapse1point3" aria-expanded="true" aria-controls="collapse1point3">
+                            Environment
+                        </a>
+                    </h4>
+                    <div id="collapse1point3" class="collapse" aria-labelledby="environment"
+                        data-parent="#skillsAccordian1">
+                        <div class="card-body text-center">
+                            <ul class="list-unstyled">
+                                <li>
+                                    Postman
+                                </li>
+                                <li>
+                                    GitHub
+                                </li>
+                                <li>
+                                    Heroku
+                                </li>
+                                <li>
+                                    Windows
+                                </li>
+                                <li>
+                                    Mac
+                                </li>
+                                <li>
+
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- ##################################### bio end ######################################### -->
-
-        <!-- ##################################### skills Start ######################################### -->
-        <div class="row" id="skills">
+            </div>
+            </div>
+            <!-- accordian starts here -->
             <div class="col">
-                <div class="card">
-                    <h2 class="card-header text-center">
-                        Technical Skils
-                    </h2>
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="m-auto">
-                                    <p>
-                                        My goal is to work on the frontier of technology and ingenuity. When I was in high school, I was introduced to the concept of lifelong learning. The world is always changing so we must too. While I seek to master my trade, I never shy from picking up new skills.
-                                    </p>
-                                </div>
+                <div class="accordian" id="skillsAccordian2">
+                    <div class="card">
+
+                        <!-- front end -->
+                        <h4 class="card-header text-center skills-card-header" id="front-end">
+                            <a class="btn btn-link btn-block" type="button" data-toggle="collapse"
+                                data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Front-End
+                            </a>
+                        </h4>
+                        <div id="collapseOne" class="collapse show" aria-labelledby="front-end"
+                            data-parent="#skillsAccordian2">
+                            <div class="card-body text-center">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        React
+                                    </li>
+                                    <li>
+                                        Redux/Sagas
+                                    </li>
+                                    <li>
+                                        bootstrap
+                                    </li>
+                                </ul>
                             </div>
-                            <!-- accordian starts here -->
-                            <div class="col">
-                                <div class="accordian" id="skillsAccordian">
-                                    <div class="card">
+                        </div>
+                    </div>
 
-                                        <!-- front end -->
-                                        <h4 class="card-header text-center skills-card-header" id="front-end">
-                                            <a class="btn btn-link btn-block" type="button" data-toggle="collapse"
-                                                data-target="#collapseOne" aria-expanded="true"
-                                                aria-controls="collapseOne">
-                                                Front-End
-                                            </a>
-                                        </h4>
-                                        <div id="collapseOne" class="collapse show" aria-labelledby="front-end"
-                                            data-parent="#skillsAccordian">
-                                            <div class="card-body text-center">
-                                                <ul class="list-unstyled">
-                                                    <li>
-                                                        JavaScript
-                                                    </li>
-                                                    <li>
-                                                        HTML5
-                                                    </li>
-                                                    <li>
-                                                        CSS3
-                                                    </li>
-                                                    <li>
-                                                        React
-                                                    </li>
-                                                    <li>
-                                                        Redux
-                                                    </li>
-                                                    <li>
-                                                        bootstrap
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
+                    <!-- server-side -->
+                    <div class="card">
+                        <h4 class="card-header text-center skills-card-header" id="server-side">
+                            <a class="btn btn-link btn-block" type="button" data-toggle="collapse"
+                                data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                Server-Side
+                            </a>
+                        </h4>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="server-side"
+                            data-parent="#skillsAccordian2">
+                            <div class="card-body text-center">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        Express
+                                    </li>
+                                    <li>
+                                        Axios
+                                    </li>
+                                    <li>
+                                        AJAX
+                                    </li>
+                                    <li>
+                                        Jquery
+                                    </li>
+                                    <li>
+                                        REST API’s
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
 
-                                <!-- server-side -->
-                                <div class="card">
-                                    <h4 class="card-header text-center skills-card-header" id="server-side">
-                                        <a class="btn btn-link btn-block" type="button" data-toggle="collapse"
-                                            data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                                            Server-Side
-                                        </a>
-                                    </h4>
-                                    <div id="collapseTwo" class="collapse" aria-labelledby="server-side"
-                                        data-parent="#skillsAccordian">
-                                        <div class="card-body text-center">
-                                            <ul class="list-unstyled">
-                                                <li>
-                                                    Node
-                                                </li>
-                                                <li>
-                                                    Express
-                                                </li>
-                                                <li>
-                                                    Axios
-                                                </li>
-                                                <li>
-                                                    AJAX
-                                                </li>
-                                                <li>
-                                                    Jquery
-                                                </li>
-                                                <li>
-                                                    REST API’s
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
+                    <!-- back-end -->
+                    <div class="card">
+                        <h4 class="card-header text-center skills-card-header" id="back-end">
+                            <a class="btn btn-link btn-block" type="button" data-toggle="collapse"
+                                data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                Back-End
+                            </a>
+                        </h4>
+                        <div id="collapseThree" class="collapse" aria-labelledby="back-end"
+                            data-parent="#skillsAccordian2">
+                            <div class="card-body text-center">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        Postico
+                                    </li>
+                                    <li>
+                                        PostgreSQL
+                                    </li>
+                                    <li>
 
-                                <!-- back-end -->
-                                <div class="card">
-                                    <h4 class="card-header text-center skills-card-header" id="back-end">
-                                        <a class="btn btn-link btn-block" type="button" data-toggle="collapse"
-                                            data-target="#collapseThree" aria-expanded="true"
-                                            aria-controls="collapseThree">
-                                            Back-End
-                                        </a>
-                                    </h4>
-                                    <div id="collapseThree" class="collapse" aria-labelledby="back-end"
-                                        data-parent="#skillsAccordian">
-                                        <div class="card-body text-center">
-                                            <ul class="list-unstyled">
-                                                <li>
-                                                    Postico
-                                                </li>
-                                                <li>
-                                                    PostgreSQL
-                                                </li>
-                                                <li>
+                                    </li>
+                                    <li>
 
-                                                </li>
-                                                <li>
+                                    </li>
+                                    <li>
 
-                                                </li>
-                                                <li>
+                                    </li>
+                                    <li>
 
-                                                </li>
-                                                <li>
+                                    </li>
 
-                                                </li>
-
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <!-- environment -->
-                                <div class="card">
-                                    <h4 class="card-header text-center skills-card-header" id="environment">
-                                        <a class="btn btn-link btn-block" type="button" data-toggle="collapse"
-                                            data-target="#collapseFour" aria-expanded="true"
-                                            aria-controls="collapseFour">
-                                            Environment
-                                        </a>
-                                    </h4>
-                                    <div id="collapseFour" class="collapse" aria-labelledby="environment"
-                                        data-parent="#skillsAccordian">
-                                        <div class="card-body text-center">
-                                            <ul class="list-unstyled">
-                                                <li>
-                                                    Postman
-                                                </li>
-                                                <li>
-                                                    GitHub
-                                                </li>
-                                                <li>
-                                                    Heroku
-                                                </li>
-                                                <li>
-                                                    Windows
-                                                </li>
-                                                <li>
-                                                    Mac
-                                                </li>
-                                                <li>
-
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                </div>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -236,184 +288,174 @@
         </div>
 
         <!-- ##################################### skills end ######################################### -->
-
-        <!-- ##################################### work Start ######################################### -->
-
+        <hr/> 
         <div class="row" id="work">
             <div class="col">
-                <div class=" card text-center">
-                    <h2 class="card-header">
-                        Checkout a site or dig in some code!
-                    </h2>
-                    <div class="card-body">
-                        <div class="row">
-
-                            <!-- This site -->
-                            <div class="col-md-4">
-                                <div class="card text-center">
-                                    <img src="imgs/confetti.jpeg" class="card-img-top" height="200" />
-                                    <div class="card-body site-card">
-                                        <h5 class="card-title">
-                                            This site
-                                        </h5>
-                                        <div class="card-text">
-                                            <!-- modal trigger-->
-                                            <a class="btn btn-default btn-secondary btn-block text-white" data-toggle="modal" data-target="#thisSiteModal">
-                                                Site Details
-                                            </a>
-                                            <a href="#" class="btn btn-default btn-secondary btn-block">You're here!</a>
-                                            <a href="https://github.com/m1dunfee/portfolio" target="_blank"
-                                                class="btn btn-default btn-secondary btn-block">Github</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Nucamp Demo -->
-                            <div class="col-md-4">
-                                <div class="card text-center">
-                                    <img src="imgs/nucamp.png" class="card-img-top" height="200" />
-                                    <div class="card-body site-card">
-                                        <h5 class="card-title">
-                                            Nucamp Demo
-                                        </h5>
-                                        <div class="card-text">
-                                            <!-- Button trigger modal -->
-                                            <a class="btn btn-default btn-secondary btn-block text-white" data-toggle="modal" data-target="#nucampModal">
-                                                Site Details
-                                            </a>
-                                            <a href="https://nucamp-demo-site.herokuapp.com/
-                                            " target="_blank" class="btn btn-default btn-secondary btn-block">Visit
-                                                Site</a>
-                                            <a href="https://github.com/m1dunfee/Nucamp-demo-site" target="_blank"
-                                                class="btn btn-default btn-secondary btn-block">Github</a>
-                                           
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- MtgConfidant -->
-                            <div class="col-md-4">
-                                <div class="card text-center">
-                                    <img src="imgs/download.jpeg" class="card-img-top" height="200" />
-                                    <div class="card-body site-card">
-                                        <h5 class="card-title">
-                                            MtgConfidant
-                                        </h5>
-                                        <div class="card-text">
-                                            <!-- trigger modal -->
-                                            <a class="btn btn-default btn-secondary btn-block text-white" data-toggle="modal" data-target="#mtgConfidantModal">
-                                                Site Details
-                                            </a>      
-                                            <a href="#" target="_blank" class="btn btn-default btn-secondary btn-block">Visit
-                                                Site</a>
-                                            <a href="https://github.com/m1dunfee/Prime-solo-project-mtgconfidant"
-                                                target="_blank" class="btn btn-default btn-secondary btn-block">Github</a>
-                                           
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                <h2 class="text-center">
+                    Other Sites
+                </h2>
+            </div>
+        </div>
+        <hr/>  
+        <!-- ##################################### work Start ######################################### -->
+        <div class="row" >
+            <!-- This site -->
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="imgs/confetti.jpeg" class="card-img-top" height="200" />
+                    <div class="card-body site-card">
+                        <h5 class="card-title">
+                            This site
+                        </h5>
+                        <div class="card-text">
+                            <!-- modal trigger-->
+                            <a class="btn btn-default btn-secondary btn-block text-white" data-toggle="modal"
+                                data-target="#thisSiteModal">
+                                Site Details
+                            </a>
+                            <a href="#" class="btn btn-default btn-secondary btn-block">You're here!</a>
+                            <a href="https://github.com/m1dunfee/portfolio" target="_blank"
+                                class="btn btn-default btn-secondary btn-block">Github</a>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <!-- Nucamp Demo -->
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="imgs/nucamp.png" class="card-img-top" height="200" />
+                    <div class="card-body site-card">
+                        <h5 class="card-title">
+                            Nucamp Demo
+                        </h5>
+                        <div class="card-text">
+                            <!-- Button trigger modal -->
+                            <a class="btn btn-default btn-secondary btn-block text-white" data-toggle="modal"
+                                data-target="#nucampModal">
+                                Site Details
+                            </a>
+                            <a href="https://nucamp-demo-site.herokuapp.com/
+                                                " target="_blank" class="btn btn-default btn-secondary btn-block">Visit
+                                Site</a>
+                            <a href="https://github.com/m1dunfee/Nucamp-demo-site" target="_blank"
+                                class="btn btn-default btn-secondary btn-block">Github</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MtgConfidant -->
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="imgs/PatioFurniture.jpg" class="card-img-top" height="200" />
+                    <div class="card-body site-card">
+                        <h5 class="card-title">
+                            originallyyoursupholstery
+                        </h5>
+                        <div class="card-text">
+                            <!-- trigger modal -->
+                            <a class="btn btn-default btn-secondary btn-block text-white" data-toggle="modal"
+                                data-target="#originallyyoursupholstery">
+                                Site Details
+                            </a>
+                            <a href="https://originallyyoursuphostery.herokuapp.com/" target="_blank" class="btn btn-default btn-secondary btn-block">Visit
+                                Site</a>
+                            <a href="https://github.com/m1dunfee/originallyyoursupholstery" target="_blank"
+                                class="btn btn-default btn-secondary btn-block">Github</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
-           
+
         <!-- ##################################### work end ######################################### -->
         <!-- ##################################### Modals ########################################### -->
-            <!-- Modal this site -->
-            <div class="modal fade" id="thisSiteModal" tabindex="-1" role="dialog" aria-labelledby="thisSiteModalTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-scrollable" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header ">
+        <!-- Modal this site -->
+        <div class="modal fade" id="thisSiteModal" tabindex="-1" role="dialog" aria-labelledby="thisSiteModalTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable" role="document">
+                <div class="modal-content">
+                    <div class="modal-header ">
                         <h5 class="modal-title" id="thisSiteModalTitle">Details</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
-                        </div>
-                        <div class="modal-body">
+                    </div>
+                    <div class="modal-body">
                         <!-- need to add some more secbtn-secondary here -->
                         <h5>
                             Description:
                         </h5>
-                        <hr/>
                         <p>
-                            This site was build as a portfolio to display what I am 
-                            currently working on. It also gives a breif look into my 
-                            profetional self, as well as links to my media accounts.
-                            Please feel free to contact me over the email or phone number 
-                            provided 
+                            This site was build as a portfolio for your convenience.
                         </p>
-
-                        <h5>
-                            Frameworks:
-                        </h5>
-                        <hr/>
                         <p>
-                            <ul>
-                                <li>
-                                    Bootstrap
-                                </li>
-                                <li>
-                                    Express
-                                </li>
-                            </ul>
+                            Tools used to build this site: Bootstrap, Node
                         </p>
-                        </div>
-                        <div class="modal-footer">
+                    </div>
+                    <div class="modal-footer">
                         <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                        </div>
                     </div>
                 </div>
             </div>
-             <!-- Modal Bootstrap-->
-             <div class="modal fade" id="nucampModal" tabindex="-1" role="dialog" aria-labelledby="nucampModalTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-scrollable" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header ">
+        </div>
+        <!-- Modal Bootstrap-->
+        <div class="modal fade" id="nucampModal" tabindex="-1" role="dialog" aria-labelledby="nucampModalTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable" role="document">
+                <div class="modal-content">
+                    <div class="modal-header ">
                         <h5 class="modal-title" id="nucampModalTitle">Detials</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
-                        </div>
-                        <div class="modal-body">
+                    </div>
+                    <div class="modal-body">
                         <p>
-                            <!-- need to add real text here -->
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum ex enim itaque voluptate eaque voluptatum autem voluptas quas maxime aliquid porro cupiditate alias, quia qui fugit dolorum tempora, corrupti corporis?
+                            This site was built as an exercise to practice Bootstrap.
                         </p>
-                        </div>
-                        <div class="modal-footer">
+                        <p>
+                            Tools used to build this site: Bootstrap, Node
+                        </p>
+                    </div>
+                    <div class="modal-footer">
                         <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                        </div>
                     </div>
                 </div>
             </div>
-             <!-- Modal MTGconfidant -->
-             <div class="modal fade" id="mtgConfidantModal" tabindex="-1" role="dialog" aria-labelledby="mtgConfidantModalTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-scrollable" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header ">
-                        <h5 class="modal-title" id="mtgConfidantModalTitle">Details</h5>
+        </div>
+        <!-- Modal MTGconfidant -->
+        <div class="modal fade" id="originallyyoursupholstery" tabindex="-1" role="dialog"
+            aria-labelledby="originallyyoursupholsteryTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable" role="document">
+                <div class="modal-content">
+                    <div class="modal-header ">
+                        <h5 class="modal-title" id="originallyyoursupholsteryTitle">Details</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
-                        </div>
-                        <div class="modal-body">
+                    </div>
+                    <div class="modal-body">
                         <p>
-                            <!-- add text here -->
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita optio sunt laudantium, debitis cupiditate, delectus ipsam accusantium reiciendis error eos maiores sed suscipit laborum neque iusto quidem corrupti. Dolor, explicabo.
+                            This site was build for a client's small buiness.
                         </p>
-                        </div>
-                        <div class="modal-footer">
+                        <p>
+                            Tools used to build this site: React, Node, Mailgun API
+                        </p>
+                    </div>
+                    <div class="modal-footer">
                         <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                        </div>
                     </div>
                 </div>
             </div>
+        </div>
         <!-- ##################################### Modal End ########################################-->
+    </div>
     </div>
     <!-- ##################################### Footer Start ######################################### -->
     <footer class="footer">
@@ -437,18 +479,24 @@
     <!-- ##################################### Footer end ######################################### -->
 
     <!-- adds the ability to have modals -->
-    
+
 
     <!-- stuff for bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 
     <script>
         $('#myModal').on('shown.bs.modal', function () {
             $('#myInput').trigger('focus')
         })
-        </script>
+    </script>
 </body>
 
 </html>

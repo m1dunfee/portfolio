@@ -8,6 +8,13 @@ background-color: lightgray;
 color: black;
 }
 
+p{
+    font-style: italic;
+    /* font-size: large; */
+}
+.container{
+    background-color: aliceblue;
+}
 .navbar{
     background-color: black;
 }
@@ -24,6 +31,7 @@ color: black;
 background-color: white;
 opacity: .75;
 }
+
 
 ul{
     list-style-type: none;
